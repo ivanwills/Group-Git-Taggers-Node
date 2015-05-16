@@ -1,15 +1,12 @@
+=begin html
+
+<a href="https://travis-ci.org/ivanwills/Group-Git-Taggers-Node?branch=master"><img src="https://travis-ci.org/ivanwills/Group-Git-Taggers-Node.png?branch=master" alt="Group-Git-Taggers-Node"></a>
+<a href="https://coveralls.io/r/ivanwills/Group-Git-Taggers-Node?branch=master"><img src="https://coveralls.io/repos/ivanwills/Group-Git-Taggers-Node/badge.svg?branch=master" alt="Coverage Status" /></a>
+
 =head1 Group::Git::Taggers::Node
 
-The README is used to introduce the module and provide instructions on
-how to install the module, any machine dependencies it may have (for
-example C compilers and installed libraries) and any other information
-that should be provided before the module is installed.
-
-A README file is required for CPAN modules since CPAN extracts the README
-file from a module distribution so that people browsing the archive
-can use it to get an idea of the module's uses. It is usually a good idea
-to provide version information here so that people can decide whether
-fixes for the module are worth downloading.
+Package that helps L<Group::Git> tag repositories containing Node files by
+looking to see if they contain a I<package.json> in the root of the repository.
 
 =head1 INSTALLATION
 
