@@ -61,3 +61,13 @@ Debian_CPANTS.txt
 
 # Avoid archives of this distribution
 \bGroup-Git-Taggers-Node-[\d\.\_]+
+
+# Avoid prove saved state file
+.prove
+
+# Other files of interest
+\..*\.tag$
+errors.err
+.travis.yml
+.editorconfig
+.vtide.yml
