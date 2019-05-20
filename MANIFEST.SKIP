@@ -71,3 +71,6 @@ errors.err
 .travis.yml
 .editorconfig
 .vtide.yml
+.vtide/start.log
+MANIFEST.SKIP
+MYMETA.json.lock
